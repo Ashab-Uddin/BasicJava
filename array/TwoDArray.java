@@ -14,5 +14,13 @@ public class TwoDArray {
                 System.out.println(a[i][j]); 
             }
         }
+
+        System.out.println("Separate............");
+
+        for(int [] innerArray:a){
+            for(int data:innerArray){
+                System.out.println(data);
+            }
+        }
     }
 }
