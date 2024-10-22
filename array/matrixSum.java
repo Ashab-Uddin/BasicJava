@@ -6,7 +6,6 @@ public class matrixSum {
         Scanner s = new Scanner(System.in);
         int [][] A = new int[2][3];
         int [][] B = new int[2][3];
-        int [][] R = new int[2][3];
 
 
         System.out.println("Enter the elements of A matrix: ");
