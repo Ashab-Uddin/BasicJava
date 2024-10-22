@@ -6,5 +6,6 @@ public class forEach {
         for(String x:names){
             System.out.println(x);
         }
+        System.out.println("Length of the array is: "+names.length);
     }
 }
