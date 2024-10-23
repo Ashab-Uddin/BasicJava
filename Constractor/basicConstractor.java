@@ -17,6 +17,7 @@ class StudentInfo{
         System.out.println("Program: "+program);
         System.out.println("Student ID: "+id);
         System.out.println("Batch: "+batch);
+        System.out.println();
     }
 }
 
@@ -24,6 +25,9 @@ public class basicConstractor {
     public static void main(String[] args) {
         StudentInfo student1 = new StudentInfo("Ashab Uddin","CSE","Undergraduate",232002274,232);
         student1.displayinfo();
+
+        StudentInfo student2 = new StudentInfo("Imran Hosen", "EEE", "Undergaduate", 232001084, 232);
+        student2.displayinfo();
 
     }
 }
