@@ -2,6 +2,9 @@ package Constractor;
 class StudentInfo{
     String name,dept,program;
     int id,batch;
+    StudentInfo(){
+        System.out.println("This method is default constraction");
+    }
     StudentInfo(String n, String d, String p, int i, int b){
         name = n;
         dept = d;
@@ -28,6 +31,9 @@ public class basicConstractor {
 
         StudentInfo student2 = new StudentInfo("Imran Hosen", "EEE", "Undergaduate", 232001084, 232);
         student2.displayinfo();
+
+        StudentInfo student3 = new StudentInfo();
+        student3.displayinfo();
 
     }
 }
