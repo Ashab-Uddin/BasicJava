@@ -1,4 +1,18 @@
 package ClassItem;
+class students {  
+    String name, dept , batch, program;
+    int id;
+
+    void displayinfo(){
+        System.out.println("Student Information: ");
+        System.out.println("Name: "+name);
+        System.out.println("Dept: "+dept);
+        System.out.println("Batch: "+batch);
+        System.out.println("Program: "+program);
+        System.out.println("ID: "+id);
+    }
+}
+
 
 public class classtest {
     public static void main(String[] args) {
@@ -13,16 +27,3 @@ public class classtest {
 }
 
 
-class students {  
-    String name, dept , batch, program;
-    int id;
-
-    void displayinfo(){
-        System.out.println("Student Information: ");
-        System.out.println("Name: "+name);
-        System.out.println("Dept: "+dept);
-        System.out.println("Batch: "+batch);
-        System.out.println("Program: "+program);
-        System.out.println("ID: "+id);
-    }
-}
