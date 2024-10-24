@@ -17,7 +17,7 @@ class Student extends Person{
 
 public class polyTest {
     public static void main(String[] args) {
-        Person p = new Person();
+       /*  Person p = new Person();
         p.display();
 
         Teacher t = new Teacher();
@@ -25,5 +25,13 @@ public class polyTest {
 
         Student s = new Student();
         s.display();
+        */
+        Person p = new Person();
+        p.display();
+        p = new Teacher();
+        p.display();
+        p = new Student();
+        p.display();
+
     }
 }
