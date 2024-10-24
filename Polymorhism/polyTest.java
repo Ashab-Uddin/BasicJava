@@ -5,11 +5,13 @@ class Person{
     }
 }
 class Teacher extends Person{
+    @Override
     void display(){
         System.out.println("I am Teacher");
     }
 }
 class Student extends Person{
+    @Override
     void display(){
         System.out.println("I am student");
     }
@@ -17,7 +19,7 @@ class Student extends Person{
 
 public class polyTest {
     public static void main(String[] args) {
-       /*  Person p = new Person();
+    /*  Person p = new Person();
         p.display();
 
         Teacher t = new Teacher();
