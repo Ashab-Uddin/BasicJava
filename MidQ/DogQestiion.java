@@ -36,11 +36,18 @@ class Dog{
 public class DogQestiion {
     public static void main(String[] args) {
         Dog d1 = new Dog("dogi", "brammon");
+        Dog d2 = new Dog("Monki", "barmis");
         d1.display();
+        System.out.println();
 
         d1.setName("ponki");
         d1.setbreed("china");
         d1.display();
+        System.out.println();
+
+        d2.setName("Tonki");
+        d2.setbreed("japanis");
+        d2.display();
 
     }
 }
