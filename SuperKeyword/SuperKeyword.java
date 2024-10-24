@@ -1,13 +1,15 @@
 package SuperKeyword;
+//It is used to call super class instance variable
 class A{
     //it is super class
     int x = 5;
 }
 class B extends A{
+    //subclass
     int x = 10;
     
     void display(){
-        System.out.println("main class x = "+x);
+        System.out.println("sub class x = "+x);
         System.out.println("super class x = "+super.x);
     }
 
