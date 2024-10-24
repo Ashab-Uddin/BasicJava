@@ -10,6 +10,7 @@ class B extends A{
     //sub constractor
     
     B(){
+        super();
         System.out.println("B is sub constractor");
     }
     
