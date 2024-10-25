@@ -7,11 +7,11 @@ class Calculator {
     double avg;
 
     
-    void calc(int... i) {
+    void calc(double... i) {
         int sum = 0; 
         int count = 0;
 
-        for (int x : i) {
+        for (double x : i) {
             sum += x;
             count++;
         }
