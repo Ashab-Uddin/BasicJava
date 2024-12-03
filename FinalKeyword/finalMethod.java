@@ -17,6 +17,7 @@ class Student extends University {
 public class finalMethod {
     public static void main(String[] args) {
         Student s1 = new Student();
+        
         // Calling the final method from the parent class
         s1.display();  // Prints "University info"
         
