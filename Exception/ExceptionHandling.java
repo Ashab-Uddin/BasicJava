@@ -10,7 +10,7 @@ public class ExceptionHandling {
             System.out.println("Result: "+r);
         }
         catch(ArithmeticException e){
-            System.out.println(" "+e);
+            System.out.println(" "+e.getMessage());
         }
         finally{
             System.out.println("Last line is Exicuted");
