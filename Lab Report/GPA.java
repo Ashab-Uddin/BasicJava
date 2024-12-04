@@ -41,5 +41,7 @@ public class GPA {
         }
         
         System.out.println("Your application is accepted and is under study.");
+        
     }
+    
 }
