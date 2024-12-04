@@ -46,7 +46,7 @@ class Triangle implements Shape1{
         System.out.println("Area of Triangle: "+r3);
     }
 }
-public class problemset{
+public class problem1{
     public static void main(String[] args) {
         Rectangle r = new Rectangle(10, 12);
         r.getArea();
