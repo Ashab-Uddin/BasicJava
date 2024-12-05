@@ -3,6 +3,6 @@ import Package.UserDefinedPackage.Animal;
 
 public class Dog {
     public static void main(String[] args) {
-        Animal anrAnimal = new Animal();
+        Animal a = new Animal();
     }
 }

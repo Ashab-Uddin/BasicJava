@@ -5,8 +5,8 @@ public class exception {
         try{
             float a,b;
             Scanner s = new Scanner(System.in);
-            a = s.nextInt();
-            b = s.nextInt();
+            a = s.nextFloat();
+            b = s.nextFloat();
             s.close();
             float div = a/b;
             System.out.println("Devision: "+div);
