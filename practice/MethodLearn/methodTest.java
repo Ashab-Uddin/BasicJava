@@ -1,4 +1,4 @@
-package practice.classLearn.MethodLearn;
+package practice.MethodLearn;
 
 public class methodTest {
     public static void main(String[] args) {
