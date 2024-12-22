@@ -7,9 +7,3 @@ public class Dog implements Animal  {
     }
 }
 
-class introduction {
-    public static void main(String[] args) {
-        Dog d = new Dog();
-        d.eat();
-    }
-}

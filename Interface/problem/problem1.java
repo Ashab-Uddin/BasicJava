@@ -28,7 +28,7 @@ class Circle implements Shape1{
         this.radius = radius;
     }
     public void getArea(){
-        r2 = Math.PI*radius*radius;
+        r2 = 3.1416*radius*radius;
         System.out.println("Area of Circle: "+r2);
     }
 
