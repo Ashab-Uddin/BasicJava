@@ -1,4 +1,4 @@
-package practice.Polymorphism;
+package practice.Polymorphism.problem1;
 
 public class Triangle {
     double base,height;

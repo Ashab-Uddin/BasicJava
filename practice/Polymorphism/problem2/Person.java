@@ -1,4 +1,4 @@
-package practice.Polymorphism;
+package practice.Polymorphism.problem2;
 
 public class Person {
     String name,dept;

@@ -1,4 +1,4 @@
-package practice.Polymorphism;
+package practice.Polymorphism.problem2;
 
 public class Student extends Person {
     String versity;
