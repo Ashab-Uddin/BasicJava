@@ -3,23 +3,21 @@ package Inheritance;
 class Personw {
     private String name;
     private int age;
-
-
-    void setName(String name) {
-        this.name = name;
-    }
-
-    String getName() {
+    
+    public String getName() {
         return name;
     }
-
-    void setAge(int age) {
+    public void setName(String name) {
+        this.name = name;
+    }
+    public int getAge() {
+        return age;
+    }
+    public void setAge(int age) {
         this.age = age;
     }
 
-    int getAge() {
-        return age;
-    }
+
 }
 
 class Teacherw extends Personw {
