@@ -20,7 +20,7 @@ class Rectangle implements Shape1{
     }
 }
 class Circle implements Shape1{
-    private double radius;
+        private double radius;
         private double r2;
     
         
